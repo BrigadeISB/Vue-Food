@@ -9,7 +9,7 @@
         class="absolute top-8 left-8"
         @click="$emit('clickFavorite')"
       />
-      <img height="220px" :src="imageUrl" alt="Food" />
+      <img class="max-w-52 max-h-40 rounded-xl object-cover" :src="imageUrl" alt="Food" />
 
       <p class="mt-2">{{ title }}</p>
 
